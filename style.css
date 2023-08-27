@@ -41,12 +41,12 @@ input{
     flex-direction: column;
    
 }
-.delete-twit{
+.btn-delete-twit{
     display: block;
     width: 20px;
     height: 20px;
     background-color: aquamarine;
-    background-image: url(/delete.svg);
+    background-image: url(delete.svg);
     background-size: cover;
     border: 1px solid gray;
     cursor: pointer;
