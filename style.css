@@ -27,6 +27,9 @@ input{
     background-color: beige;
     border: 1px solid black;
     gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
 }
 .card h2{
     font-size: 20px;
@@ -35,4 +38,19 @@ input{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+   
+}
+.delete-twit{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+    background-image: url(/delete.svg);
+    background-size: cover;
+    border: 1px solid gray;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
