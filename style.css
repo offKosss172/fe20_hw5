@@ -1,0 +1,38 @@
+body{
+    background-color: tomato;
+}
+button{
+    width: 150px;
+    height: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+.write-post{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    height: 200px;
+}
+.card{
+    width: 80%;
+    background-color: beige;
+    border: 1px solid black;
+    gap: 10px;
+}
+.card h2{
+    font-size: 20px;
+}
+.card-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
