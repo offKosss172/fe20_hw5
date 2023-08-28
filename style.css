@@ -19,7 +19,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-input{
+.write-post:last-child {
     height: 200px;
 }
 .card{
@@ -54,3 +54,28 @@ input{
     top: 0;
     right: 0;
 }
+.modal{
+    display: none;
+    width: 300px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 101;
+   background-color: aquamarine;
+   text-align: center;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+ }

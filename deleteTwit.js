@@ -1,8 +1,4 @@
  
-    
-
-
-    alert("hello");
 
     function deleteCard(postId) {
         console.log('Deleting post with ID:', postId);

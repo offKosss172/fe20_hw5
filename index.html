@@ -14,18 +14,25 @@
         <h1>TW</h2>
     </header>
    <main>
-        <section class="write-post">
-            <input type="text">
-            <p>send you massage</p>
+    <section class="write-post">
+        <form id="postForm">
+            <input type="text" id="inputTitle">
+            <p>Title</p>
+            <textarea class="message-input" rows="5" maxlength="120" id="textareaMsg"></textarea>
+            <p>Send your message</p>
             <button type="submit">Відправити</button>
-        </section>
-        
-        <section class="card-field">
-
-        </section>
+        </form>
+    </section>
+    <section class="card-field">
+    </section>
     </main>
+    <div class="modal"><p>msg відправлено</p>
+        <button>OK</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
     <script src="classTwit.js"></script>
     <script src="sript.js"></script>
     <script src="deleteTwit.js"></script>
+    <script src="sendmsg.js"></script>
 </body>
 </html>
